@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function Atr(){
+function Atr({name, role, description}){
   return(
     <div className="atr">
       <div className="atrelements">
