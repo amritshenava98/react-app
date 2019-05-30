@@ -5,16 +5,14 @@ import './App.css';
 
 function App() {
 
-  const[isRed, setRed] = useState(false);
-  const[count, setCount] = useState(0);
-
-  const changeColor = () => {
-       setCount(count + 1);
-  }
   return (
     <div className = "app">
-      <h1>Welcome to ATR Lab</h1>
-      <Atr />
+      <h1>Welcome to ATR </h1>
+      <Atr name = "Amrth Ashok Shenava" />
+      <Atr name = "Irvin Cardena" />
+      <Atr name = "Xiangxu Lee" />
+      <Atr name = "Jared Butcher" />
+ 
     </div>
 
   );
