@@ -5,13 +5,9 @@ function Atr(){
   return(
     <div className="atr">
       <div className="atrelements">
-        <h1>Amrth Ashok Shenava</h1>
-        <h2>Student</h2>
-        <h3>I am interested in Blockchain, AI, Robotics and am looking forward
-        to learn more and work on some interesting porjects.</h3>
-      </div>
-      <div className="button">
-        <button>Click Me</button>
+        <h1>{name}</h1>
+        <h2>{role}</h2>
+        <h3>{description}</h3>
       </div>
     </div>
   );
